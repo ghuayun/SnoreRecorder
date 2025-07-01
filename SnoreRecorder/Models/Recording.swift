@@ -19,11 +19,11 @@ extension Recording {
         return NSFetchRequest<Recording>(entityName: "Recording")
     }
     
-    @NSManaged public var id: UUID
-    @NSManaged public var startTime: Date
+    @NSManaged public var id: UUID?
+    @NSManaged public var startTime: Date?
     @NSManaged public var endTime: Date?
     @NSManaged public var duration: TimeInterval
-    @NSManaged public var filePath: String
+    @NSManaged public var filePath: String?
     @NSManaged public var isAnalyzed: Bool
     @NSManaged public var analysisResult: String?
     @NSManaged public var volumeData: Data?
@@ -50,6 +50,7 @@ extension Recording : Identifiable {
     }
     
     public var dateString: String {
+        guard let startTime = startTime else { return "Unknown Date" }
         let formatter = DateFormatter()
         formatter.dateStyle = .medium
         formatter.timeStyle = .short
@@ -64,7 +65,7 @@ extension Recording : Identifiable {
     }
     
     public func setVolumeData(_ volumes: [Float]) {
-        volumeData = Data(bytes: volumes, count: volumes.count * MemoryLayout<Float>.stride)
+        volumeData = volumes.withUnsafeBytes { Data($0) }
     }
     
 }
