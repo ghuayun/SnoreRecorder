@@ -75,14 +75,33 @@ SnoreRecorder/
    - Extract all provided files to a folder named `SnoreRecorder`
    - Ensure the folder structure matches the project layout shown below
 
-2. **Open in Xcode**
+2. **Open in Xcode (Multiple Options)**
+
+   **Option A: Direct Xcode Project**
    ```bash
    open SnoreRecorder.xcodeproj
    ```
-   **Important**: If you get an error opening the project, try:
-   - Delete any `.DS_Store` files
-   - Make sure all files are in the correct directory structure
-   - Open Xcode first, then use File > Open to select the `.xcodeproj` file
+
+   **Option B: If Option A fails, try:**
+   ```bash
+   # Open Xcode first, then File > Open > select SnoreRecorder.xcodeproj
+   open -a Xcode
+   ```
+
+   **Option C: Alternative Swift Package approach:**
+   ```bash
+   # Create a new iOS app in Xcode, then add the source files manually
+   # Or try opening the Package.swift file
+   open Package.swift
+   ```
+
+   **Option D: Manual Setup (if all else fails):**
+   1. Open Xcode
+   2. Create new iOS App project
+   3. Name it "SnoreRecorder"
+   4. Choose SwiftUI interface and iOS 16+ deployment
+   5. Replace the generated files with the provided source files
+   6. Add the Info.plist configurations manually
 
 3. **Configure Bundle Identifier**
    - Select the project in Xcode navigator
