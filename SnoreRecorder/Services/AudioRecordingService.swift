@@ -7,7 +7,9 @@
 
 import AVFoundation
 import Foundation
+#if canImport(UIKit)
 import UIKit
+#endif
 import CoreData
 
 class AudioRecordingService: NSObject, ObservableObject {
@@ -25,7 +27,9 @@ class AudioRecordingService: NSObject, ObservableObject {
     private var currentRecording: Recording?
     private var recordingTimer: Timer?
     private var volumeTimer: Timer?
+    #if canImport(UIKit)
     private var backgroundTaskID: UIBackgroundTaskIdentifier = .invalid
+    #endif
     private var scheduledDuration: TimeInterval?
     
     // Volume monitoring
@@ -38,6 +42,7 @@ class AudioRecordingService: NSObject, ObservableObject {
     }
     
     private func setupNotifications() {
+        #if canImport(UIKit)
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(appDidEnterBackground),
@@ -51,6 +56,7 @@ class AudioRecordingService: NSObject, ObservableObject {
             name: UIApplication.willEnterForegroundNotification,
             object: nil
         )
+        #endif
     }
     
     func startRecording(scheduledDuration: TimeInterval? = nil) {
@@ -232,16 +238,20 @@ class AudioRecordingService: NSObject, ObservableObject {
     }
     
     private func startBackgroundTask() {
+        #if canImport(UIKit)
         backgroundTaskID = UIApplication.shared.beginBackgroundTask(withName: "AudioRecording") {
             self.endBackgroundTask()
         }
+        #endif
     }
     
     private func endBackgroundTask() {
+        #if canImport(UIKit)
         if backgroundTaskID != .invalid {
             UIApplication.shared.endBackgroundTask(backgroundTaskID)
             backgroundTaskID = .invalid
         }
+        #endif
     }
     
     @objc private func appDidEnterBackground() {
