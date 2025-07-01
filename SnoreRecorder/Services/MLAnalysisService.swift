@@ -85,8 +85,11 @@ class MLAnalysisService: ObservableObject {
     }
     
     private func extractAudioFeatures(from recording: Recording) throws -> AudioFeatures {
+        guard let filePath = recording.filePath else {
+            throw AnalysisError.noAudioData
+        }
         let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let audioFileURL = documentsPath.appendingPathComponent(recording.filePath)
+        let audioFileURL = documentsPath.appendingPathComponent(filePath)
         
         let audioFile = try AVAudioFile(forReading: audioFileURL)
         let format = audioFile.processingFormat
