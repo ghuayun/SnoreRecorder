@@ -71,19 +71,18 @@ SnoreRecorder/
 
 ### Installation Steps
 
-1. **Clone or Download the Project**
-   ```bash
-   # If using git
-   git clone <repository-url>
-   cd SnoreRecorder
-   
-   # Or extract the provided files to a folder named SnoreRecorder
-   ```
+1. **Download the Project**
+   - Extract all provided files to a folder named `SnoreRecorder`
+   - Ensure the folder structure matches the project layout shown below
 
 2. **Open in Xcode**
    ```bash
    open SnoreRecorder.xcodeproj
    ```
+   **Important**: If you get an error opening the project, try:
+   - Delete any `.DS_Store` files
+   - Make sure all files are in the correct directory structure
+   - Open Xcode first, then use File > Open to select the `.xcodeproj` file
 
 3. **Configure Bundle Identifier**
    - Select the project in Xcode navigator
@@ -95,8 +94,9 @@ SnoreRecorder/
    - Ensure "Automatically manage signing" is checked
 
 5. **Build and Run**
-   - Select your target device or simulator
+   - Select your target device or simulator (iOS 16+ required)
    - Press `Cmd+R` to build and run
+   - If you get build errors, try Product > Clean Build Folder first
 
 ### Required Permissions
 

@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A123456789ABCDEF0123456 /* SnoreRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123457 /* SnoreRecorderApp.swift */; };
-		1A123456789ABCDEF0123458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123459 /* ContentView.swift */; };
-		1A123456789ABCDEF012345A /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF012345B /* RecordingView.swift */; };
-		1A123456789ABCDEF012345C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF012345D /* HistoryView.swift */; };
-		1A123456789ABCDEF012345E /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF012345F /* AnalysisView.swift */; };
-		1A123456789ABCDEF0123460 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123461 /* SettingsView.swift */; };
-		1A123456789ABCDEF0123462 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123463 /* Recording.swift */; };
-		1A123456789ABCDEF0123464 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123465 /* PersistenceController.swift */; };
-		1A123456789ABCDEF0123466 /* AudioPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123467 /* AudioPermissionManager.swift */; };
-		1A123456789ABCDEF0123468 /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0123469 /* AudioRecordingService.swift */; };
-		1A123456789ABCDEF012346A /* MLAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF012346B /* MLAnalysisService.swift */; };
-		1A123456789ABCDEF012346C /* SnoreRecorderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF012346D /* SnoreRecorderModel.xcdatamodeld */; };
+		A1A1A1A1A1A1A1A1A1A1A1A1 /* SnoreRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1A2 /* SnoreRecorderApp.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1A4 /* ContentView.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1A5 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1A6 /* RecordingView.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1A7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1A8 /* HistoryView.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1A9 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1AA /* AnalysisView.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1AB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1AC /* SettingsView.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1AD /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1AE /* Recording.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1AF /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1B0 /* PersistenceController.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1B1 /* AudioPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1B2 /* AudioPermissionManager.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1B3 /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1B4 /* AudioRecordingService.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1B5 /* MLAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1B6 /* MLAnalysisService.swift */; };
+		A1A1A1A1A1A1A1A1A1A1A1B7 /* SnoreRecorderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1B8 /* SnoreRecorderModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A123456789ABCDEF0123454 /* SnoreRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoreRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A123456789ABCDEF0123457 /* SnoreRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoreRecorderApp.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0123459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF012345B /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF012345D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF012345F /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0123461 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0123463 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0123465 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0123467 /* AudioPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPermissionManager.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0123469 /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF012346B /* MLAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLAnalysisService.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF012346E /* SnoreRecorderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnoreRecorderModel.xcdatamodel; sourceTree = "<group>"; };
-		1A123456789ABCDEF012346F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A19F /* SnoreRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoreRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A1A1A1A1A1A1A1A1A1A1A2 /* SnoreRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoreRecorderApp.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1A6 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1A8 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1AA /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1AC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1AE /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1B0 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1B2 /* AudioPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPermissionManager.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1B4 /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1B6 /* MLAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLAnalysisService.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1B9 /* SnoreRecorderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnoreRecorderModel.xcdatamodel; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A123456789ABCDEF0123451 /* Frameworks */ = {
+		A1A1A1A1A1A1A1A1A1A1A19C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,70 +49,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A123456789ABCDEF012344B /* Root */ = {
+		A1A1A1A1A1A1A1A1A1A1A196 = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0123456 /* SnoreRecorder */,
-				1A123456789ABCDEF0123455 /* Products */,
+				A1A1A1A1A1A1A1A1A1A1A1A1 /* SnoreRecorder */,
+				A1A1A1A1A1A1A1A1A1A1A1A0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0123455 /* Products */ = {
+		A1A1A1A1A1A1A1A1A1A1A1A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0123454 /* SnoreRecorder.app */,
+				A1A1A1A1A1A1A1A1A1A1A19F /* SnoreRecorder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0123456 /* SnoreRecorder */ = {
+		A1A1A1A1A1A1A1A1A1A1A1A1 /* SnoreRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0123457 /* SnoreRecorderApp.swift */,
-				1A123456789ABCDEF012346F /* Info.plist */,
-				1A123456789ABCDEF0123470 /* Views */,
-				1A123456789ABCDEF0123471 /* Models */,
-				1A123456789ABCDEF0123472 /* Services */,
-				1A123456789ABCDEF0123473 /* Resources */,
+				A1A1A1A1A1A1A1A1A1A1A1A2 /* SnoreRecorderApp.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1BA /* Info.plist */,
+				A1A1A1A1A1A1A1A1A1A1A1BB /* Views */,
+				A1A1A1A1A1A1A1A1A1A1A1BC /* Models */,
+				A1A1A1A1A1A1A1A1A1A1A1BD /* Services */,
+				A1A1A1A1A1A1A1A1A1A1A1BE /* Resources */,
 			);
 			path = SnoreRecorder;
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0123470 /* Views */ = {
+		A1A1A1A1A1A1A1A1A1A1A1BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0123459 /* ContentView.swift */,
-				1A123456789ABCDEF012345B /* RecordingView.swift */,
-				1A123456789ABCDEF012345D /* HistoryView.swift */,
-				1A123456789ABCDEF012345F /* AnalysisView.swift */,
-				1A123456789ABCDEF0123461 /* SettingsView.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1A4 /* ContentView.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1A6 /* RecordingView.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1A8 /* HistoryView.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1AA /* AnalysisView.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1AC /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0123471 /* Models */ = {
+		A1A1A1A1A1A1A1A1A1A1A1BC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0123463 /* Recording.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1AE /* Recording.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0123472 /* Services */ = {
+		A1A1A1A1A1A1A1A1A1A1A1BD /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0123465 /* PersistenceController.swift */,
-				1A123456789ABCDEF0123467 /* AudioPermissionManager.swift */,
-				1A123456789ABCDEF0123469 /* AudioRecordingService.swift */,
-				1A123456789ABCDEF012346B /* MLAnalysisService.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1B0 /* PersistenceController.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1B2 /* AudioPermissionManager.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1B4 /* AudioRecordingService.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1B6 /* MLAnalysisService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0123473 /* Resources */ = {
+		A1A1A1A1A1A1A1A1A1A1A1BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF012346D /* SnoreRecorderModel.xcdatamodeld */,
+				A1A1A1A1A1A1A1A1A1A1A1B8 /* SnoreRecorderModel.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -120,13 +120,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A123456789ABCDEF0123453 /* SnoreRecorder */ = {
+		A1A1A1A1A1A1A1A1A1A1A19E /* SnoreRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A123456789ABCDEF0123474 /* Build configuration list for PBXNativeTarget "SnoreRecorder" */;
+			buildConfigurationList = A1A1A1A1A1A1A1A1A1A1A1BF /* Build configuration list for PBXNativeTarget "SnoreRecorder" */;
 			buildPhases = (
-				1A123456789ABCDEF0123450 /* Sources */,
-				1A123456789ABCDEF0123451 /* Frameworks */,
-				1A123456789ABCDEF0123452 /* Resources */,
+				A1A1A1A1A1A1A1A1A1A1A19B /* Sources */,
+				A1A1A1A1A1A1A1A1A1A1A19C /* Frameworks */,
+				A1A1A1A1A1A1A1A1A1A1A19D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -134,25 +134,25 @@
 			);
 			name = SnoreRecorder;
 			productName = SnoreRecorder;
-			productReference = 1A123456789ABCDEF0123454 /* SnoreRecorder.app */;
+			productReference = A1A1A1A1A1A1A1A1A1A1A19F /* SnoreRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A123456789ABCDEF012344C /* Project object */ = {
+		A1A1A1A1A1A1A1A1A1A1A197 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					1A123456789ABCDEF0123453 = {
+					A1A1A1A1A1A1A1A1A1A1A19E = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 1A123456789ABCDEF012344F /* Build configuration list for PBXProject "SnoreRecorder" */;
+			buildConfigurationList = A1A1A1A1A1A1A1A1A1A1A19A /* Build configuration list for PBXProject "SnoreRecorder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,18 +160,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A123456789ABCDEF012344B /* Root */;
-			productRefGroup = 1A123456789ABCDEF0123455 /* Products */;
+			mainGroup = A1A1A1A1A1A1A1A1A1A1A196;
+			productRefGroup = A1A1A1A1A1A1A1A1A1A1A1A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A123456789ABCDEF0123453 /* SnoreRecorder */,
+				A1A1A1A1A1A1A1A1A1A1A19E /* SnoreRecorder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A123456789ABCDEF0123452 /* Resources */ = {
+		A1A1A1A1A1A1A1A1A1A1A19D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,29 +181,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A123456789ABCDEF0123450 /* Sources */ = {
+		A1A1A1A1A1A1A1A1A1A1A19B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A123456789ABCDEF0123456 /* SnoreRecorderApp.swift in Sources */,
-				1A123456789ABCDEF0123458 /* ContentView.swift in Sources */,
-				1A123456789ABCDEF012345A /* RecordingView.swift in Sources */,
-				1A123456789ABCDEF012345C /* HistoryView.swift in Sources */,
-				1A123456789ABCDEF012345E /* AnalysisView.swift in Sources */,
-				1A123456789ABCDEF0123460 /* SettingsView.swift in Sources */,
-				1A123456789ABCDEF0123462 /* Recording.swift in Sources */,
-				1A123456789ABCDEF0123464 /* PersistenceController.swift in Sources */,
-				1A123456789ABCDEF0123466 /* AudioPermissionManager.swift in Sources */,
-				1A123456789ABCDEF0123468 /* AudioRecordingService.swift in Sources */,
-				1A123456789ABCDEF012346A /* MLAnalysisService.swift in Sources */,
-				1A123456789ABCDEF012346C /* SnoreRecorderModel.xcdatamodeld in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1A1 /* SnoreRecorderApp.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1A3 /* ContentView.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1A5 /* RecordingView.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1A7 /* HistoryView.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1A9 /* AnalysisView.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1AB /* SettingsView.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1AD /* Recording.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1AF /* PersistenceController.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1B1 /* AudioPermissionManager.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1B3 /* AudioRecordingService.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1B5 /* MLAnalysisService.swift in Sources */,
+				A1A1A1A1A1A1A1A1A1A1A1B7 /* SnoreRecorderModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A123456789ABCDEF0123475 /* Debug */ = {
+		A1A1A1A1A1A1A1A1A1A1A1C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		1A123456789ABCDEF0123476 /* Release */ = {
+		A1A1A1A1A1A1A1A1A1A1A1C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +290,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_RCONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -322,7 +322,7 @@
 			};
 			name = Release;
 		};
-		1A123456789ABCDEF0123477 /* Debug */ = {
+		A1A1A1A1A1A1A1A1A1A1A1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		1A123456789ABCDEF0123478 /* Release */ = {
+		A1A1A1A1A1A1A1A1A1A1A1C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -393,20 +393,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A123456789ABCDEF012344F /* Build configuration list for PBXProject "SnoreRecorder" */ = {
+		A1A1A1A1A1A1A1A1A1A1A19A /* Build configuration list for PBXProject "SnoreRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A123456789ABCDEF0123475 /* Debug */,
-				1A123456789ABCDEF0123476 /* Release */,
+				A1A1A1A1A1A1A1A1A1A1A1C0 /* Debug */,
+				A1A1A1A1A1A1A1A1A1A1A1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A123456789ABCDEF0123474 /* Build configuration list for PBXNativeTarget "SnoreRecorder" */ = {
+		A1A1A1A1A1A1A1A1A1A1A1BF /* Build configuration list for PBXNativeTarget "SnoreRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A123456789ABCDEF0123477 /* Debug */,
-				1A123456789ABCDEF0123478 /* Release */,
+				A1A1A1A1A1A1A1A1A1A1A1C2 /* Debug */,
+				A1A1A1A1A1A1A1A1A1A1A1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -414,17 +414,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1A123456789ABCDEF012346D /* SnoreRecorderModel.xcdatamodeld */ = {
+		A1A1A1A1A1A1A1A1A1A1A1B8 /* SnoreRecorderModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1A123456789ABCDEF012346E /* SnoreRecorderModel.xcdatamodel */,
+				A1A1A1A1A1A1A1A1A1A1A1B9 /* SnoreRecorderModel.xcdatamodel */,
 			);
-			currentVersion = 1A123456789ABCDEF012346E /* SnoreRecorderModel.xcdatamodel */;
+			currentVersion = A1A1A1A1A1A1A1A1A1A1A1B9 /* SnoreRecorderModel.xcdatamodel */;
 			path = SnoreRecorderModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1A123456789ABCDEF012344C /* Project object */;
+	rootObject = A1A1A1A1A1A1A1A1A1A1A197 /* Project object */;
 }
