@@ -147,7 +147,8 @@ struct AnalysisView: View {
         }
         
         return analyzedRecordings.filter { recording in
-            recording.startTime >= startDate
+            guard let recordingStartTime = recording.startTime else { return false }
+            return recordingStartTime >= startDate
         }
     }
     
@@ -225,7 +226,7 @@ struct SleepQualityChartView: View {
             
             if !recordings.isEmpty {
                 Chart {
-                    ForEach(recordings.sorted(by: { $0.startTime < $1.startTime }), id: \.id) { recording in
+                    ForEach(recordings.sorted(by: { ($0.startTime ?? Date()) < ($1.startTime ?? Date()) }), id: \.id) { recording in
                         LineMark(
                             x: .value("Date", recording.startTime),
                             y: .value("Quality", recording.sleepQualityScore)
@@ -276,7 +277,7 @@ struct SnoreEventsChartView: View {
             
             if !recordings.isEmpty {
                 Chart {
-                    ForEach(recordings.sorted(by: { $0.startTime < $1.startTime }), id: \.id) { recording in
+                    ForEach(recordings.sorted(by: { ($0.startTime ?? Date()) < ($1.startTime ?? Date()) }), id: \.id) { recording in
                         BarMark(
                             x: .value("Date", recording.startTime),
                             y: .value("Events", recording.snoreEvents)
